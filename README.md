@@ -22,8 +22,8 @@ A simple Flask application that demonstrates authentication with GitHub using OA
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone git@github.com:Mati-Joseph/github-auth-login.git
+cd github-auth-login
 ```
 
 ### 2. Create and activate a virtual environment
