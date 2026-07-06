@@ -1,0 +1,8 @@
+.git
+.github
+.venv
+__pycache__
+.env
+.pytest_cache
+Pipfile
+Pipfile.lock

@@ -17,6 +17,9 @@ A simple Flask application that demonstrates authentication with GitHub using OA
 - Requests-OAuthlib
 - python-dotenv
 
+Development: Pipenv
+Deployment/Docker: requirements.txt generated from Pipenv
+
 ## Installation
 
 ### 1. Clone the repository
