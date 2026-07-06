@@ -11,6 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
+
 # Load environment varibles
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
@@ -61,3 +62,7 @@ def callback():
 def logout():
     session.clear()
     return redirect(url_for("index"))
+
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)
